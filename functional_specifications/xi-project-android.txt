@@ -1,6 +1,8 @@
 ##########################################
 ## 19-apr-2015
 
+Android Studio will be the IDE for the xi-project-android.
+
 This is the beginning of a specification describing the basic Android 
 mobile functional block of the xi-project. Later this will migrate to a 
 MS-WORD doc or whatever. For now emacs and text are good enough.
