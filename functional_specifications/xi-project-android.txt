@@ -1,0 +1,34 @@
+##########################################
+## 19-apr-2015
+
+This is the beginning of a specification describing the basic Android 
+mobile functional block of the xi-project. Later this will migrate to a 
+MS-WORD doc or whatever. For now emacs and text are good enough.
+
+Jody suggested that the initial droid code be simply a mobile client that
+querys the xi-project-website with a "location". the location can be a plug-in
+value or later it will be a GPS determined value. ZIP_CODE will be good for to
+get things going.
+
+While nothing is being done on the xi-website (server) site, a server stub will 
+be created to respond to the xi-android (client) query. The query will be a 
+URI (URL) request that uses location as the key. The xi-website (server) stub 
+will return a JSON response. The server stub will implement an SQLLite3 db.
+
+The JSON response will just be used to show that something came back in a
+textview.
+
+The xi_project-android code will be setup in a very generalized framework
+that can be adapted as more details are specified. This includes generalized:
+Activities
+Fragments
+Adapters
+View-Builders
+URI-Builders
+DataCache SQLLite3 db
+Resources
+AndroidManifest.xml
+and other good stuff
+
+
+
